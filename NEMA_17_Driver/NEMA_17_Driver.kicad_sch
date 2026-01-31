@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "33aeef8e-7535-454c-9ba4-118266db25d3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 21.59 17.78)
+		(size 58.42 81.28)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "23a7ed87-48ec-48bc-9819-7fd6d9f83c90")
+		(property "Sheetname" "Power"
+			(at 21.59 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 21.59 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NEMA_17_Driver"
+				(path "/33aeef8e-7535-454c-9ba4-118266db25d3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 17.78)
+		(size 58.42 81.28)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d00b10c-bb04-4096-aa7f-9af2859b91d9")
+		(property "Sheetname" "MCU"
+			(at 85.09 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 85.09 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NEMA_17_Driver"
+				(path "/33aeef8e-7535-454c-9ba4-118266db25d3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 17.78)
+		(size 55.88 81.28)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8740acf1-69dc-49da-8847-2155a6dd96e1")
+		(property "Sheetname" "Connected"
+			(at 149.86 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connected.kicad_sch"
+			(at 149.86 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NEMA_17_Driver"
+				(path "/33aeef8e-7535-454c-9ba4-118266db25d3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
